@@ -1,0 +1,18 @@
+{
+  "name": "xuanzai-ui",
+  "version": "1.0.4",
+  "description": "designed by xuanzai",
+  "main": "./src/index.js",
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xuanzai",
+  "license": "ISC",
+  "__npminstall_done": "Sun Feb 03 2019 12:04:45 GMT+0800 (中国标准时间)",
+  "_from": "xuanzai-ui@1.0.2",
+  "_resolved": "http://registry.npm.taobao.org/xuanzai-ui/download/xuanzai-ui-1.0.2.tgz"
+}
