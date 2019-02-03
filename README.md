@@ -14,7 +14,7 @@
 
 <br/>
 
-> ```npm/cnpm install xuanzai-ui --save```
+> ```npm install xuanzai-ui --save```
 
 > ```import XuanZaiUi from 'xuanzai-ui'```
 
