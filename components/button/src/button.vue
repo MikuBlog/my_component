@@ -48,22 +48,22 @@ export default {
     methods: {
         // initialUI
         initial() {
-            const button = this.$refs.button
-            button.style.background = this.defaultBackgroundColor
-            button.style.color = this.defaultColor
-            button.style.border = `2px solid ${this.defaultBackgroundColor}`
+            const style = this.$refs.button.style
+            style.background = this.defaultBackgroundColor
+            style.color = this.defaultColor
+            style.border = `2px solid ${this.defaultBackgroundColor}`
         },
         // mouseover
         changeUI_1(event) {
-            const button = event.currentTarget
-            button.style.background = this.hoverBackgroundColor
-            button.style.color = this.hoverColor
+            const style = event.currentTarget.style
+            style.background = this.hoverBackgroundColor
+            style.color = this.hoverColor
         },
         // mouseleave
         changeUI_2(event) {
-            const button = event.currentTarget
-            button.style.background = this.defaultBackgroundColor
-            button.style.color = this.defaultColor
+            const style = event.currentTarget.style
+            style.background = this.defaultBackgroundColor
+            style.color = this.defaultColor
         },
         // size
         changeSize() {
