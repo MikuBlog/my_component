@@ -20,9 +20,8 @@
 
 全局引用 ``` Vue.use(XuanZaiUi)```
 
-局部引用 ```let {button} = XuanZaiUi```
-
-        ```Vue.use(button)```
+局部引用 ```let {button} = XuanZaiUi;
+Vue.use(button)```
 
 <br/>
 
