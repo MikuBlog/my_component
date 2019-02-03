@@ -42,7 +42,7 @@ Vue.use(button)```
   *  size: 按钮大小(small、normal、large)
   */
   
-<XZ-button :title="upload" isIcon="true"></XZ-button>
+<XZ-button title="upload" isIcon="true" :click="handleClick"></XZ-button>
 
 ```
 
