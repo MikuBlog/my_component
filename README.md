@@ -39,7 +39,7 @@ Vue.use(button)```
   *  hoverBackgroundColor: 悬浮后的背景颜色(String)
   *  isIcon: 是否使用Icon(String)
   *  iconType: Icon的类型，使用font-awesome图标库(String)
-  *  size: 按钮大小(small、normal、large)
+  *  size: 按钮大小(String (small、normal、large))
   */
   
 <XZ-button title="upload" isIcon="true" :click="handleClick"></XZ-button>
