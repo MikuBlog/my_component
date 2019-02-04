@@ -14,18 +14,30 @@
 
 <br/>
 
-```npm install xuanzai-ui --save```
-
-```import XuanZaiUi from 'xuanzai-ui'```
-
-全局引用 ``` Vue.use(XuanZaiUi)```
-
-局部引用 ```let {button} = XuanZaiUi;
-Vue.use(button)```
+使用npm工具进行安装：```npm install xuanzai-ui --save```
 
 <br/>
 
 ### 使用
+
+<br/>
+
+在```main.js```中引入
+
+<br/>
+
+```
+// 全局引入
+import XuanZaiUi from 'xuanzai-ui
+Vue.use(XuanZaiUi)
+```
+
+```
+// 局部引用
+import XuanZaiUi from 'xuanzai-ui
+const {button} = XuanZaiUi
+Vue.use(button)
+```
 
 <br/>
 
