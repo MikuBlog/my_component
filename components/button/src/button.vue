@@ -1,5 +1,5 @@
 <template>
-    <div class="button" ref="button" @click="click">
+    <div class="xz-button" ref="button" @click="click">
         {{title}}<i class="fa fa-cloud-upload fa-lg" v-show="isIcon" ref="icon"></i>
     </div>
 </template>
@@ -101,7 +101,7 @@ export default {
 </script>
 
 <style scoped>
-    .button {
+    .xz-button {
         position: relative;
         display: inline-block;
         border-radius: 5px;
@@ -110,7 +110,7 @@ export default {
         transition: .3s;
     }
 
-    i {
+    .xz-button > i {
         position: relative;
         left: 2px;
         margin: 0 3px;
