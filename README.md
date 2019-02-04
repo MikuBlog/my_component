@@ -41,6 +41,10 @@ Vue.use(button)
 
 <br/>
 
+### 示例
+
+<br/>
+
 ```
 /**
   *  title: 命名按钮(String)
