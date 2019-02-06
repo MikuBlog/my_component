@@ -66,7 +66,7 @@ export default {
             style.color = this.defaultColor
         },
         // size
-        changeSize() {
+        initialSize() {
             const style = this.$refs.button.style
             switch(this.size) {
                 case 'small':
@@ -84,7 +84,7 @@ export default {
             }
         },
         // icon-type
-        changIcon() {
+        initialIcon() {
             const icon = this.$refs.icon
             icon.classList.remove('fa-cloud-upload')
             icon.classList.add(`fa-${this.iconType}`)
@@ -94,8 +94,8 @@ export default {
         this.$refs.button.addEventListener('mouseover', this.changeUI_1)
         this.$refs.button.addEventListener('mouseleave', this.changeUI_2)
         this.initial()
-        this.changeSize()
-        this.changIcon()
+        this.initialSize()
+        this.initialIcon()
     },
 }
 </script>
